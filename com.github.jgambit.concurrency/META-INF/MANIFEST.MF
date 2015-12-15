@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Concurrency
+Bundle-SymbolicName: com.github.jgambit.concurrency
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.github.jgambit.concurrency.Activator
+Bundle-Vendor: GITHUB
+Require-Bundle: org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
