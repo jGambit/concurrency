@@ -62,6 +62,11 @@ public class SceneStack {
 		}
 	}
 
+	public Scene getCurrentScene() {
+		SceneBlocker current = getCurrentBlocker();
+		return current == null ? null : current.getScene();
+	}
+
 	public void unblockScene() {
 		SceneBlocker blocker = getCurrentBlocker();
 		if (blocker != null) {
